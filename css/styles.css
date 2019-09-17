@@ -490,16 +490,37 @@ a.active {
     }
 }
 
-
 /* ======= INTRODUCTION ======= */
 
+/* ======= ANIMATION ======= */
+.anim-typewriter{
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+
+    animation: typewriter 2s steps(22) 1s 1 normal both,
+                blinkTextCursor 900ms steps(22) infinite normal;
+  }
+
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 8em;}
+  }
+
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
 #intro {
-    background: url(../img/mountain-dusk.jpg);
+    /* background: url(../img/mountain-dusk.jpg); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #000;
+    background: linear-gradient(90deg, #0F0F10 50%, #252727 50%);
     color: #000;
 }
 
@@ -527,6 +548,10 @@ a.active {
     font-size: 60px;
     font-weight: 300;
     letter-spacing: 3px;
+}
+
+#intro h1 > span {
+    color: #988345;
 }
 
 #intro p.subtitle {
