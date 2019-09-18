@@ -646,7 +646,7 @@ a.fa.fa-angle-down {
   padding: 10px 14px;
   color: #aaa;
   font-size: 50px;
-  margin-top: 175px;
+  margin-top: 125px;
   transition: all 0.5s;
   animation: bounce 2s infinite;
 }
@@ -963,141 +963,6 @@ a.fa.fa-angle-down:focus {
   animation-delay: 2.7s;
 }
 
-@-webkit-keyframes progress-1 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 95%;
-  }
-}
-
-@-webkit-keyframes progress-2 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@-webkit-keyframes progress-3 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
-@-webkit-keyframes progress-4 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
-@-webkit-keyframes progress-5 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
-
-@-moz-keyframes progress-1 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 95%;
-  }
-}
-
-@-moz-keyframes progress-2 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@-moz-keyframes progress-3 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
-@-moz-keyframes progress-4 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
-@-moz-keyframes progress-5 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
-
-@keyframes progress-1 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 95%;
-  }
-}
-
-@keyframes progress-2 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes progress-3 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
-@keyframes progress-4 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
-@keyframes progress-5 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
-
 .skills-section h3 {
   font-weight: 400;
   font-size: 18px;
@@ -1330,12 +1195,12 @@ img#nu-logo {
 }
 
 a.resume-btn {
-  background: none;
+  background: #988345;
   display: inline-block;
   padding: 10px 20px;
   color: black;
   border: 2px solid #ccc;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
@@ -1348,11 +1213,11 @@ a.resume-btn {
 a.resume-btn:hover,
 a.resume-btn:active {
   /*background-position: -100% 100%;*/
-  color: red;
-  /*font-weight: 400;*/
+  color: white;
+  font-weight: 400;
   border: 2px solid #ccc;
-  background-color: rgba(254, 254, 254, 0.2);
-  padding: 10px 30px;
+  background: #b0984f;
+  padding: 10px 25px;
 }
 
 /* ======= PORTFOLIO ======= */
