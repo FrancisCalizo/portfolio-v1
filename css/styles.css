@@ -691,6 +691,7 @@ a.fa.fa-angle-down:focus {
   width: 170px;
   height: auto;
   border-radius: 50%;
+  border: 10px solid #988345;
 }
 
 #about p {
