@@ -55,7 +55,7 @@ button:focus,
 }
 
 #loader:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 5px;
   left: 5px;
@@ -69,7 +69,7 @@ button:focus,
 }
 
 #loader:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 15px;
   left: 15px;
@@ -205,7 +205,7 @@ h5,
 h6 {
   text-transform: uppercase;
   margin: 0 0 30px;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -230,7 +230,7 @@ p {
   margin: 0 0 25px;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
@@ -344,7 +344,7 @@ a.active {
   margin-bottom: 0;
   border-color: transparent;
   background-color: #000;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
 }
 
@@ -693,6 +693,7 @@ a.fa.fa-angle-down:focus {
 #about img#prof-pic {
   width: 170px;
   height: auto;
+  border-radius: 50%;
 }
 
 #about p {
@@ -705,9 +706,9 @@ a.fa.fa-angle-down:focus {
   font-weight: 500;
 }
 
-#about img {
+/* #about img {
   border-radius: 50%;
-}
+} */
 
 #about #tl-dr {
   background: #f0f0f0;
@@ -737,7 +738,7 @@ a.fa.fa-angle-down:focus {
 #about #tl-dr h5 {
   font-weight: 300;
   font-size: 14px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   text-transform: capitalize;
   letter-spacing: 0.5px;
 }
@@ -882,7 +883,7 @@ a.fa.fa-angle-down:focus {
   margin: 10px auto;
   padding: 0;
   list-style: none;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   opacity: 0;
 }
 
@@ -1148,10 +1149,6 @@ a.fa.fa-angle-down:focus {
   }
 }
 
-.skills-section {
-  /*background: mistyrose;*/
-}
-
 .skills-section h3 {
   font-weight: 400;
   font-size: 18px;
@@ -1183,16 +1180,16 @@ a.fa.fa-angle-down:focus {
   margin: 0 auto;
   width: 75px;
   height: auto;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
+  /* -webkit-transition: all 0.3s ease-in-out; */
+  /* -moz-transition: all 0.3s ease-in-out; */
   transition: all 0.3s ease-in-out;
 }
 
 .skills-section .skill-icon img:hover {
-  -webkit-filter: none;
-  filter: none;
+  /* animation: bounce 1s linear; */
+  transform: scale(1.55);
 }
 
 @media screen and (min-width: 450px) {
@@ -1381,7 +1378,7 @@ a.resume-btn {
   padding: 10px 20px;
   color: #ddd;
   border: 2px solid #ccc;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
@@ -1525,7 +1522,7 @@ a.resume-btn:active {
 
 #portfolio .links a i::after {
   position: absolute;
-  content: "";
+  content: '';
   left: -7px;
   top: -7px;
   width: 30px;
@@ -1759,7 +1756,7 @@ a.resume-btn:active {
   color: #000;
   padding: 10px 20px;
   text-decoration: none;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   /*border-radius: 30px;*/
   border: 2px solid #000;
@@ -1909,7 +1906,7 @@ ul.social-buttons li a:active {
 }
 
 #to-top-copy {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 12px;
   margin: 0 auto;
   opacity: 0;
@@ -1921,7 +1918,7 @@ ul.social-buttons li a:active {
 }
 
 .copyright p {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   /*text-transform: uppercase;*/
 }
@@ -1999,7 +1996,7 @@ ul.social-buttons li a:active {
   border: 2px solid #00009c;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin: 40px 10px;
   -webkit-transition: 0.3s ease-in-out;
@@ -2024,7 +2021,7 @@ ul.social-buttons li a:active {
 
 .modal-footer .btn {
   border-radius: 0px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 ::-moz-selection {
